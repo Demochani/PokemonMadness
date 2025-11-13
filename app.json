@@ -13,7 +13,12 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.PokemonTestTask",
+      "scheme": "pokemontesttask",
+      "infoPlist": {
+        "NSMotionUsageDescription": "This app needs access to motion data to track your steps and power up your Pokémon."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -21,7 +26,12 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.PokemonTestTask",
+      "scheme": "pokemontesttask",
+      "permissions": [
+        "ACTIVITY_RECOGNITION"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
